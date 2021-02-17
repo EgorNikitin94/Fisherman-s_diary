@@ -1,0 +1,17 @@
+/* 
+  Localized.strings
+  Fisherman's diary
+
+  Created by Егор Никитин on 05.02.2021.
+  
+*/
+
+
+"All notes" = "Все заметки";
+"Create new folder" = "Создать новую папку";
+"Place name" = "Название места";
+"Create" = "Создать";
+"Cancel" = "Отмена";
+"Make a photo" = "Сделать фото";
+"Select from library" = "Выбрать из библиотеки";
+"Delete" = "Удалить";

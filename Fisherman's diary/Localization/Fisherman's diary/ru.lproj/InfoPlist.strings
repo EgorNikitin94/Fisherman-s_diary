@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  Fisherman's diary
+
+  Created by Егор Никитин on 05.02.2021.
+  
+*/
+
+CFBundleName = "Дневник рыбака";
+NSLocationWhenInUseUsageDescription = "Приложение хочет использовать локацию, когда вы им пользуетесь";
+NSCameraUsageDescription = "Можно воспользоваться камерой?";
+NSPhotoLibraryUsageDescription = "Можно использовать фототеку?";

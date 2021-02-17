@@ -7,25 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50034A3C25CC7AED00147B80 /* NoteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50034A3B25CC7AED00147B80 /* NoteMapViewController.swift */; };
+		50034A4125CC8F9C00147B80 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50034A4025CC8F9C00147B80 /* MapViewController.swift */; };
+		50034A4525CC91FB00147B80 /* NoteAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50034A4425CC91FB00147B80 /* NoteAnnotation.swift */; };
+		5036461B25CB06DE0084702E /* SelectFolderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5036461A25CB06DE0084702E /* SelectFolderTableViewController.swift */; };
+		5036462225CB35840084702E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5036462125CB35840084702E /* LocationManager.swift */; };
+		5053EFB225CED60500557099 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5053EFB125CED60500557099 /* NoteTableViewCell.swift */; };
+		507B6CFF25CDD3B4005103BA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 507B6D0125CDD3B4005103BA /* Localizable.strings */; };
+		507B6D0325CDD435005103BA /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507B6D0225CDD435005103BA /* LocalizationManager.swift */; };
+		507B6D1125CDD8FE005103BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 507B6D0F25CDD8FE005103BA /* InfoPlist.strings */; };
+		5082EB3D25C2DF2C0066CA48 /* FoldersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082EB3C25C2DF2C0066CA48 /* FoldersTableViewController.swift */; };
+		5082EB4125C303140066CA48 /* FolderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5082EB4025C303140066CA48 /* FolderTableViewController.swift */; };
+		508D4F1B25CDBA23007DAA1C /* PriceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508D4F1A25CDBA23007DAA1C /* PriceManager.swift */; };
+		508D4F1F25CDBEA4007DAA1C /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508D4F1E25CDBEA4007DAA1C /* StoreManager.swift */; };
+		508D4F2325CDC592007DAA1C /* BuyingForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508D4F2225CDC592007DAA1C /* BuyingForm.swift */; };
+		50E36DE925C21FBD004B281F /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E36DE125C21FBD004B281F /* Location+CoreDataClass.swift */; };
+		50E36DEA25C21FBD004B281F /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E36DE225C21FBD004B281F /* Location+CoreDataProperties.swift */; };
+		50E36DEB25C21FBD004B281F /* ImageNote+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E36DE325C21FBD004B281F /* ImageNote+CoreDataClass.swift */; };
+		50E36DEC25C21FBD004B281F /* ImageNote+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E36DE425C21FBD004B281F /* ImageNote+CoreDataProperties.swift */; };
+		50E36DED25C21FBD004B281F /* Folder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E36DE525C21FBD004B281F /* Folder+CoreDataClass.swift */; };
+		50E36DEE25C21FBD004B281F /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E36DE625C21FBD004B281F /* Folder+CoreDataProperties.swift */; };
+		50E36DEF25C21FBD004B281F /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E36DE725C21FBD004B281F /* Note+CoreDataClass.swift */; };
+		50E36DF025C21FBD004B281F /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E36DE825C21FBD004B281F /* Note+CoreDataProperties.swift */; };
+		50E36DF425C22247004B281F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E36DF325C22247004B281F /* CoreDataManager.swift */; };
 		50FE3D4025C1A7FF00325526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FE3D3F25C1A7FF00325526 /* AppDelegate.swift */; };
 		50FE3D4225C1A7FF00325526 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FE3D4125C1A7FF00325526 /* SceneDelegate.swift */; };
-		50FE3D4425C1A7FF00325526 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FE3D4325C1A7FF00325526 /* ViewController.swift */; };
 		50FE3D4725C1A7FF00325526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FE3D4525C1A7FF00325526 /* Main.storyboard */; };
 		50FE3D4A25C1A7FF00325526 /* Fisherman_s_diary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50FE3D4825C1A7FF00325526 /* Fisherman_s_diary.xcdatamodeld */; };
 		50FE3D4C25C1A80600325526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50FE3D4B25C1A80600325526 /* Assets.xcassets */; };
 		50FE3D4F25C1A80600325526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FE3D4D25C1A80600325526 /* LaunchScreen.storyboard */; };
+		50FFD2CA25C98E7D00B1DE96 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FFD2C925C98E7D00B1DE96 /* NoteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50034A3B25CC7AED00147B80 /* NoteMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMapViewController.swift; sourceTree = "<group>"; };
+		50034A4025CC8F9C00147B80 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		50034A4425CC91FB00147B80 /* NoteAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteAnnotation.swift; sourceTree = "<group>"; };
+		5036461A25CB06DE0084702E /* SelectFolderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFolderTableViewController.swift; sourceTree = "<group>"; };
+		5036462125CB35840084702E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5053EFB125CED60500557099 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		507B6CF925CDD1FF005103BA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		507B6CFA25CDD200005103BA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		507B6D0025CDD3B4005103BA /* ru */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; lineEnding = 0; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		507B6D0225CDD435005103BA /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		507B6D1025CDD8FE005103BA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = "Fisherman's diary/ru.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5082EB3C25C2DF2C0066CA48 /* FoldersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldersTableViewController.swift; sourceTree = "<group>"; };
+		5082EB4025C303140066CA48 /* FolderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderTableViewController.swift; sourceTree = "<group>"; };
+		508D4F1A25CDBA23007DAA1C /* PriceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceManager.swift; sourceTree = "<group>"; };
+		508D4F1E25CDBEA4007DAA1C /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		508D4F2225CDC592007DAA1C /* BuyingForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyingForm.swift; sourceTree = "<group>"; };
+		50E36DE125C21FBD004B281F /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		50E36DE225C21FBD004B281F /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		50E36DE325C21FBD004B281F /* ImageNote+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageNote+CoreDataClass.swift"; sourceTree = "<group>"; };
+		50E36DE425C21FBD004B281F /* ImageNote+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageNote+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		50E36DE525C21FBD004B281F /* Folder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		50E36DE625C21FBD004B281F /* Folder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		50E36DE725C21FBD004B281F /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		50E36DE825C21FBD004B281F /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		50E36DF325C22247004B281F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		50FE3D3C25C1A7FF00325526 /* Fisherman's diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fisherman's diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FE3D3F25C1A7FF00325526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FE3D4125C1A7FF00325526 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50FE3D4325C1A7FF00325526 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50FE3D4625C1A7FF00325526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50FE3D4925C1A7FF00325526 /* Fisherman_s_diary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fisherman_s_diary.xcdatamodel; sourceTree = "<group>"; };
 		50FE3D4B25C1A80600325526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50FE3D4E25C1A80600325526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50FE3D5025C1A80600325526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FFD2C925C98E7D00B1DE96 /* NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +87,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50002DFE25CDCB4B0088ABDD /* BuyFullVersion */ = {
+			isa = PBXGroup;
+			children = (
+				508D4F1A25CDBA23007DAA1C /* PriceManager.swift */,
+				508D4F1E25CDBEA4007DAA1C /* StoreManager.swift */,
+				508D4F2225CDC592007DAA1C /* BuyingForm.swift */,
+			);
+			path = BuyFullVersion;
+			sourceTree = "<group>";
+		};
+		5015D3F525CF336E0006DB98 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				50FE3D4525C1A7FF00325526 /* Main.storyboard */,
+				50FE3D4D25C1A80600325526 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		5015D3F725CF361B0006DB98 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				50034A4425CC91FB00147B80 /* NoteAnnotation.swift */,
+				50034A3B25CC7AED00147B80 /* NoteMapViewController.swift */,
+				50034A4025CC8F9C00147B80 /* MapViewController.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		5015D3F925CF37820006DB98 /* Main module */ = {
+			isa = PBXGroup;
+			children = (
+				5015D3F525CF336E0006DB98 /* Storyboard */,
+				5082EB3C25C2DF2C0066CA48 /* FoldersTableViewController.swift */,
+				5053EFB725CEDBF500557099 /* NotesViewController */,
+				50FFD2C925C98E7D00B1DE96 /* NoteTableViewController.swift */,
+				5036461A25CB06DE0084702E /* SelectFolderTableViewController.swift */,
+				5015D3F725CF361B0006DB98 /* Maps */,
+			);
+			path = "Main module";
+			sourceTree = "<group>";
+		};
+		5036461E25CB35320084702E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				50FE3D4825C1A7FF00325526 /* Fisherman_s_diary.xcdatamodeld */,
+				50E36DF325C22247004B281F /* CoreDataManager.swift */,
+				50E36DE525C21FBD004B281F /* Folder+CoreDataClass.swift */,
+				50E36DE625C21FBD004B281F /* Folder+CoreDataProperties.swift */,
+				50E36DE725C21FBD004B281F /* Note+CoreDataClass.swift */,
+				50E36DE825C21FBD004B281F /* Note+CoreDataProperties.swift */,
+				50E36DE125C21FBD004B281F /* Location+CoreDataClass.swift */,
+				50E36DE225C21FBD004B281F /* Location+CoreDataProperties.swift */,
+				50E36DE325C21FBD004B281F /* ImageNote+CoreDataClass.swift */,
+				50E36DE425C21FBD004B281F /* ImageNote+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		5036461F25CB35420084702E /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				5036462125CB35840084702E /* LocationManager.swift */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		5053EFB525CEDBD400557099 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				507B6D0F25CDD8FE005103BA /* InfoPlist.strings */,
+				507B6D0225CDD435005103BA /* LocalizationManager.swift */,
+				507B6D0125CDD3B4005103BA /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		5053EFB725CEDBF500557099 /* NotesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5082EB4025C303140066CA48 /* FolderTableViewController.swift */,
+				5053EFB125CED60500557099 /* NoteTableViewCell.swift */,
+			);
+			path = NotesViewController;
+			sourceTree = "<group>";
+		};
+		50E36DDE25C21E34004B281F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5036461F25CB35420084702E /* LocationManager */,
+				5036461E25CB35320084702E /* CoreData */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		50FE3D3325C1A7FF00325526 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +201,14 @@
 		50FE3D3E25C1A7FF00325526 /* Fisherman's diary */ = {
 			isa = PBXGroup;
 			children = (
+				50E36DDE25C21E34004B281F /* Model */,
+				50002DFE25CDCB4B0088ABDD /* BuyFullVersion */,
 				50FE3D3F25C1A7FF00325526 /* AppDelegate.swift */,
 				50FE3D4125C1A7FF00325526 /* SceneDelegate.swift */,
-				50FE3D4325C1A7FF00325526 /* ViewController.swift */,
-				50FE3D4525C1A7FF00325526 /* Main.storyboard */,
+				5015D3F925CF37820006DB98 /* Main module */,
 				50FE3D4B25C1A80600325526 /* Assets.xcassets */,
-				50FE3D4D25C1A80600325526 /* LaunchScreen.storyboard */,
 				50FE3D5025C1A80600325526 /* Info.plist */,
-				50FE3D4825C1A7FF00325526 /* Fisherman_s_diary.xcdatamodeld */,
+				5053EFB525CEDBD400557099 /* Localization */,
 			);
 			path = "Fisherman's diary";
 			sourceTree = "<group>";
@@ -111,6 +254,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 50FE3D3325C1A7FF00325526;
 			productRefGroup = 50FE3D3D25C1A7FF00325526 /* Products */;
@@ -127,9 +271,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507B6CFF25CDD3B4005103BA /* Localizable.strings in Resources */,
 				50FE3D4F25C1A80600325526 /* LaunchScreen.storyboard in Resources */,
 				50FE3D4C25C1A80600325526 /* Assets.xcassets in Resources */,
 				50FE3D4725C1A7FF00325526 /* Main.storyboard in Resources */,
+				507B6D1125CDD8FE005103BA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,20 +286,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50FE3D4425C1A7FF00325526 /* ViewController.swift in Sources */,
+				50E36DF025C21FBD004B281F /* Note+CoreDataProperties.swift in Sources */,
+				5036462225CB35840084702E /* LocationManager.swift in Sources */,
+				50E36DE925C21FBD004B281F /* Location+CoreDataClass.swift in Sources */,
+				508D4F1F25CDBEA4007DAA1C /* StoreManager.swift in Sources */,
 				50FE3D4A25C1A7FF00325526 /* Fisherman_s_diary.xcdatamodeld in Sources */,
+				50034A4525CC91FB00147B80 /* NoteAnnotation.swift in Sources */,
+				5036461B25CB06DE0084702E /* SelectFolderTableViewController.swift in Sources */,
 				50FE3D4025C1A7FF00325526 /* AppDelegate.swift in Sources */,
+				5082EB3D25C2DF2C0066CA48 /* FoldersTableViewController.swift in Sources */,
+				50034A4125CC8F9C00147B80 /* MapViewController.swift in Sources */,
+				508D4F1B25CDBA23007DAA1C /* PriceManager.swift in Sources */,
+				508D4F2325CDC592007DAA1C /* BuyingForm.swift in Sources */,
+				5082EB4125C303140066CA48 /* FolderTableViewController.swift in Sources */,
+				5053EFB225CED60500557099 /* NoteTableViewCell.swift in Sources */,
+				50E36DEB25C21FBD004B281F /* ImageNote+CoreDataClass.swift in Sources */,
+				50034A3C25CC7AED00147B80 /* NoteMapViewController.swift in Sources */,
+				50E36DEE25C21FBD004B281F /* Folder+CoreDataProperties.swift in Sources */,
+				507B6D0325CDD435005103BA /* LocalizationManager.swift in Sources */,
+				50E36DF425C22247004B281F /* CoreDataManager.swift in Sources */,
 				50FE3D4225C1A7FF00325526 /* SceneDelegate.swift in Sources */,
+				50E36DED25C21FBD004B281F /* Folder+CoreDataClass.swift in Sources */,
+				50FFD2CA25C98E7D00B1DE96 /* NoteTableViewController.swift in Sources */,
+				50E36DEF25C21FBD004B281F /* Note+CoreDataClass.swift in Sources */,
+				50E36DEA25C21FBD004B281F /* Location+CoreDataProperties.swift in Sources */,
+				50E36DEC25C21FBD004B281F /* ImageNote+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		507B6D0125CDD3B4005103BA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				507B6D0025CDD3B4005103BA /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		507B6D0F25CDD8FE005103BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				507B6D1025CDD8FE005103BA /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		50FE3D4525C1A7FF00325526 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				50FE3D4625C1A7FF00325526 /* Base */,
+				507B6CF925CDD1FF005103BA /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -162,6 +346,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				50FE3D4E25C1A80600325526 /* Base */,
+				507B6CFA25CDD200005103BA /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -220,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -234,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -275,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
